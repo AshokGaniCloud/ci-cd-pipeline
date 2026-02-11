@@ -4,9 +4,7 @@ on:
  push:
   branches:
       - master
-  branches-ignore:
-      - main
-      - feature
+
 
 jobs:
     Check-code-lint:
